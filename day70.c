@@ -26,7 +26,6 @@ We Are Going To Look At 26 Different Test Cases.  */
         str[0] = toupper(str[0]);
     }
 
-    // Loop through the rest
     for(int i = 1; str[i] != '\0'; i++) {
         if(str[i - 1] == ' ') {
             str[i] = toupper(str[i]);
@@ -37,4 +36,5 @@ We Are Going To Look At 26 Different Test Cases.  */
 
     printf("Sentence :\n%s", str);
     return 0;
+
 }
