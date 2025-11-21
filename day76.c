@@ -11,7 +11,6 @@ File opened successfully.                                Error: File does not ex
 (Displays file content) */
 
     char filename[100];
-    char line[500];
     FILE *fp;
 
     printf("Enter the filename: ");
@@ -31,4 +30,5 @@ File opened successfully.                                Error: File does not ex
     fclose(fp);
 
     return 0;
+
 }
